@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.currency-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.items-type-para {
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.items-usd-para {
+  color: #ffffff;
+  font-size: 16px;
+}
+.items-euro-para {
+  color: #ffffff;
+  font-size: 16px;
+}
+.items-usd-euro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+}
+.items-coin-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.item-type-image {
+  height: 20px;
+  width: 20px;
+}
